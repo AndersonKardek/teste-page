@@ -1,8 +1,10 @@
 body {
-    background-color: rgba(177, 202, 202, 0.13)!important;
+    background-color: rgba(143, 172, 172, 0.13)!important;
     font-family: sans-serif;
     color: rgba(0, 8, 38, 0.8);
 }
+
+/* Início Navbar */
 
 header {
     background-color: white;
@@ -11,12 +13,11 @@ header {
 .info-logo {
     display: inline;
     text-align: center;
-    font-size: 15px;
     margin: 20px 10px 0px 0px;
-    padding: 20px;
+    padding: 10px;
 }
 .info-logo p {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .navbar {
@@ -35,6 +36,7 @@ header {
     display: flex;
     align-items: center;
     line-height: 2.9;
+    border: 0.5px solid white;
     transition: color 0.5s ease 0s, font-weight; 
 }
 .material-icons {
@@ -55,36 +57,84 @@ header {
     border-bottom: 2px solid rgb(231, 48, 94);
 }
 
-
 /* FIM NAVBAR */
 
+/* Início Body */
 
 h5{  
     margin-top: 25px;
     margin-bottom: 15px;
 
 }
-.card {
-    padding: 0;
-    width: 36em;
-    height: 10em;
-    border-radius: 10px;
-    border: hidden;
+/* Config geral dos Cards */
 
-}
-.card:hover {
+.card {
+    border-radius: 10px;
+    border: 0.5px solid white;
+    cursor: pointer;
+    display: flex;
+}.card:hover {
     color: rgb(231, 48, 94);
     border: 1px solid;
 }
 
-.card .card-body > a {
+/* Card Score */
+
+.card-score {
+    padding: 0;
+    width: 36em;
+    height: 9em;
+}
+
+.card-score .card-body > a {
     color: rgba(0, 8, 38, 0.8)!important;
     text-decoration: none;
     
 }
-.card b span{
+.card-score b span{
     color: #E63888;
     margin: 10px;
     padding: 10px;
-    line-height: 4.0;
+    line-height: 2.7;
 }
+#score {
+    margin-bottom: 2em;
+}
+
+.flex-consulta-score {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Card Consultas */
+
+.card-consultas {
+    padding: 0px;
+    width: 22em;
+    height: 15em;
+    margin-left: 32px;
+}
+
+/* Card nome Limpo */
+
+.flex-nomeLimpo-receita {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-nomeLimpo {
+    padding: 0px;
+    width: 17em;
+    height: 11em;
+}
+
+
+/* Card Situacao Receita */
+
+.card-situacaoReceita{
+    padding: 0px;
+    width: 17em;
+    height: 11em;
+    margin-left: 32px;
+    
+}
+

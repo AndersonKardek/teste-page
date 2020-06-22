@@ -72,7 +72,7 @@ h5{
     border-radius: 10px;
     border: 0.5px solid white;
     cursor: pointer;
-    display: flex;
+
 }.card:hover {
     color: rgb(231, 48, 94);
     border: 1px solid;
@@ -81,7 +81,6 @@ h5{
 /* Card Score */
 
 .card-score {
-    padding: 0;
     width: 36em;
     height: 9em;
 }
@@ -97,44 +96,33 @@ h5{
     padding: 10px;
     line-height: 2.7;
 }
-#score {
-    margin-bottom: 2em;
-}
-
-.flex-consulta-score {
-    display: flex;
-    flex-wrap: wrap;
-}
+ 
 /* Card Consultas */
 
 .card-consultas {
-    padding: 0px;
     width: 22em;
     height: 15em;
-    margin-left: 32px;
+    margin-top: -2em;
+    margin-left: 2em;
 }
 
 /* Card nome Limpo */
 
-.flex-nomeLimpo-receita {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .card-nomeLimpo {
-    padding: 0px;
     width: 17em;
     height: 11em;
 }
-
+ #nome-receita{
+    margin-top: -2.5em;
+ }
 
 /* Card Situacao Receita */
 
 .card-situacaoReceita{
-    padding: 0px;
     width: 17em;
     height: 11em;
-    margin-left: 32px;
-    
+    margin-left: 1em;
+
 }
+
 

@@ -61,7 +61,8 @@ header {
 
 /* Início Body */
 
-h5{  
+.titulo{
+    font-size: 24px;  
     margin-top: 25px;
     margin-bottom: 15px;
 
@@ -125,4 +126,25 @@ h5{
 
 }
 
+
+/* Soluções */
+
+.card-solucoes {
+    width: 36em;
+    height: 4em;
+    margin-bottom: 1.5px;
+    
+}
+
+footer {
+    display: block;
+    margin-top: 8em;
+    background-color: rgba(0, 8, 38, 0.8)!important;
+    color: white;
+    height: auto;
+}
+
+hr{
+    border-top: 1.5px solid rgba(197, 197, 197, 0.199);
+}
 

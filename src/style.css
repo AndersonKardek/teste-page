@@ -4,46 +4,42 @@ body {
     color: rgba(0, 8, 38, 0.8);
 }
 
-/* Início Navbar */
 
-header {
+/* INÍCIO NAVBAR */
+
+header { 
     background-color: white;
     border-bottom:  0.5px solid rgba(16, 17, 17, 0.13);
-}
-.info-logo {
-    display: inline;
-    text-align: center;
-    margin: 20px 10px 0px 0px;
-    padding: 10px;
-}
-.info-logo p {
-    font-size: 14px;
 }
 
 .navbar {
     padding: 0;
     margin: 0;
-    height: 5rem;
+    text-decoration: none;
 }
 
-.nav-item {
+.nav-item { 
+    color: rgba(0, 8, 38, 0.8);
+    font-weight: 700;
+    display: flex;
+    align-items:center;
     font-size: 16px;
     padding: 8px 16px;
     cursor: pointer;
-    max-width: 100%;
-    max-height: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    line-height: 2.9;
-    border: 0.5px solid white;
+    border: 2px solid white;
+    line-height: 2.7;
     transition: color 0.5s ease 0s, font-weight; 
+}
+
+.nav-item:hover {
+    color: rgb(231, 48, 94)!important;
+    border-bottom: 2px solid rgb(231, 48, 94); 
 }
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
-    font-size: 30px;  /* Preferred icon size */
+    font-size: 30px; 
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -52,24 +48,23 @@ header {
     white-space: nowrap;
     direction: ltr;
 }
-.nav-item:hover {
-    color: rgb(231, 48, 94);
-    border-bottom: 2px solid rgb(231, 48, 94);
+
+
+/* INÍCIO BODY */
+
+.top-buffer {
+    margin-top: 15px;
 }
-
-/* FIM NAVBAR */
-
-/* Início Body */
 
 .titulo{
-    font-size: 24px;  
-    margin-top: 25px;
-    margin-bottom: 15px;
+    font-size: 1.5rem;  
+    font-weight: 700;
 
 }
-/* Config geral dos Cards */
 
-/* .card {
+/* Configuração geral dos Cards */
+
+.card {
     border-radius: 10px;
     border: 0.5px solid white;
     cursor: pointer;
@@ -77,74 +72,37 @@ header {
 }.card:hover {
     color: rgb(231, 48, 94);
     border: 1px solid;
-} */
-
-/* Card Score */
-
-/* .card-score {
-    width: 36em;
-    height: 9em;
-} */
-
-/* .card-score .card-body > a {
-    color: rgba(0, 8, 38, 0.8)!important;
-    text-decoration: none;
-    
-} */
-/* .card-score b span{
-    color: #E63888;
-    margin: 10px;
-    padding: 10px;
-    line-height: 2.7;
-} */
- 
-/* Card Consultas */
-
-/* .card-consultas {
-    width: 22em;
-    height: 15em;
-    margin-top: -2em;
-    margin-left: 2em;
 }
 
-/* Card nome Limpo */
-
-/* .card-nomeLimpo {
-    width: 17em;
-    height: 11em; */
-/* }
- #nome-receita{
-    margin-top: -2.5em;
- } */
-
-/* Card Situacao Receita */
-
-/* .card-situacaoReceita{
-    width: 17em;
-    height: 11em;
-    margin-left: 1em;
-
-} */
+.card-body {
+    color: rgba(0, 8, 38, 0.8);
+}
+.card-body > a {
+    font-weight: 700;
+    color: #E63888;
+}
 
 
-/* Soluções */
-
-/* .card-solucoes {
-    width: 36em;
-    height: 4em;
-    margin-bottom: 1.5px;
-     
-} 
+/* INÍCIO FOOTER */
 
 footer {
-    display: block;
-    margin-top: 8em;
+    margin-top: 10em;
     background-color: rgba(0, 8, 38, 0.8)!important;
     color: white;
-    height: auto;
 }
 
 hr{
     border-top: 1.5px solid rgba(197, 197, 197, 0.199);
 }
 
+#social-media ul li {
+    padding: 2px;
+    margin: 2px;
+    text-decoration: none;
+    color: red;
+    display: inline;
+}
+#social-media ul li a{
+    color: white;
+    text-decoration: none;
+}

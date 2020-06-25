@@ -69,7 +69,7 @@ header {
 }
 /* Config geral dos Cards */
 
-.card {
+/* .card {
     border-radius: 10px;
     border: 0.5px solid white;
     cursor: pointer;
@@ -77,30 +77,30 @@ header {
 }.card:hover {
     color: rgb(231, 48, 94);
     border: 1px solid;
-}
+} */
 
 /* Card Score */
 
-.card-score {
+/* .card-score {
     width: 36em;
     height: 9em;
-}
+} */
 
-.card-score .card-body > a {
+/* .card-score .card-body > a {
     color: rgba(0, 8, 38, 0.8)!important;
     text-decoration: none;
     
-}
-.card-score b span{
+} */
+/* .card-score b span{
     color: #E63888;
     margin: 10px;
     padding: 10px;
     line-height: 2.7;
-}
+} */
  
 /* Card Consultas */
 
-.card-consultas {
+/* .card-consultas {
     width: 22em;
     height: 15em;
     margin-top: -2em;
@@ -109,32 +109,32 @@ header {
 
 /* Card nome Limpo */
 
-.card-nomeLimpo {
+/* .card-nomeLimpo {
     width: 17em;
-    height: 11em;
-}
+    height: 11em; */
+/* }
  #nome-receita{
     margin-top: -2.5em;
- }
+ } */
 
 /* Card Situacao Receita */
 
-.card-situacaoReceita{
+/* .card-situacaoReceita{
     width: 17em;
     height: 11em;
     margin-left: 1em;
 
-}
+} */
 
 
 /* Soluções */
 
-.card-solucoes {
+/* .card-solucoes {
     width: 36em;
     height: 4em;
     margin-bottom: 1.5px;
-    
-}
+     
+} 
 
 footer {
     display: block;
